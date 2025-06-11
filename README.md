@@ -18,3 +18,11 @@ Proyek ini bertujuan untuk menerapkan algoritma K-Means dan Agglomerative Cluste
 | **Posisi Cluster 0**            | Tengah-atas (PC1 sedang, PC2 tinggi)         | Kanan bawah (PC1 tinggi, PC2 ≈ 0)            |
 | **Posisi Cluster 1**            | Bawah tengah (PC1 -3 s.d. 0, PC2 negatif)    | Kiri atas (PC1 negatif, PC2 positif)         |
 | **Posisi Cluster 2**            | Kanan bawah (PC1 > 2, PC2 < 0)               | Tengah atas (PC1 0–3, PC2 tinggi)            |
+
+
+# Kesimpulannya
+Perbandingan antara algoritma Agglomerative Clustering dengan algoritma K-Means Clustering di atas menunjukkan tidak ada perbedaan yang signifikan. Dengan jumlah cluster dan PC yang sama, didapatkan:
+Agglomerative Clustering memiliki durasi runtime sedikit lebih cepat dari K-Means Clustering
+Silhouette Score dari K-Means Clustering sedikit lebih besar yang berarti sedikit lebih baik Agglomerative Clustering
+Calinski-Harabasz Index dari K-Means Clustering jauh lebih besar yang berarti jauh lebih baik Agglomerative Clustering
+Davies-Bouldin Index dari Agglomerative Clustering lebih rendah yang berarti lebih baik K-Means Clustering
